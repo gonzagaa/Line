@@ -9,7 +9,7 @@
     padding-block: 1.5rem;
     border-radius: 8rem;
 
-    background: var(--bg-blue);
+    background: var(--gradient);
 
     animation: nav 10s ease-in-out backwards;
 }
