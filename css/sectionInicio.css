@@ -1,0 +1,98 @@
+#inicio {
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+
+#inicio .cards .card {
+    background: #eaeaea;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+}
+
+#inicio .cards .card ion-icon {
+    font-size: 2rem;
+    background: var(--gradient);
+    color: #fff;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+#inicio .cards .card p {
+    text-align: left;
+}
+
+#inicio .cards .card p span {
+    font-weight: 600;
+}
+
+#inicio h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+#inicio h4 span {
+    font-weight: 600;
+}
+
+#inicio h4 span.azul {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+#inicio a button {
+    margin-top: 2rem;
+}
+
+#inicio img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 1080px) {
+    section#inicio .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas: "a b";
+        align-items: center;
+        gap: 12rem;
+    }
+
+    section#inicio .content header {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+
+        grid-area: a;
+    }
+
+    section#inicio .content header h2 {
+        font-size: 3.2rem;
+    }
+
+    section#inicio .content header .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    section#inicio .content header h4 {
+        font-size: 2rem;
+    }
+
+    section#inicio .content img {
+        background: #eeeeee;
+        padding: 4rem;
+        border-radius: 2rem;
+    }
+}

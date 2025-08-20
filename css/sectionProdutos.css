@@ -1,0 +1,129 @@
+#produtos {
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+
+#produtos .card {
+    padding-bottom: 2rem;
+}
+
+#produtos .card img {
+    width: 100%;
+    border-radius: 2rem;
+    background: #0000000f;
+}
+
+#produtos .swiper-pagination-bullet {
+    background-color: #0000005f; 
+    opacity: 1; 
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+  
+#produtos .swiper-pagination-bullet-active {
+    background-color: #000000; 
+}
+
+#produtos .swiper-button-next {
+    top: 45%;
+    color: #000000; 
+    transform: scale(.5);
+}
+  
+#produtos .swiper-button-prev {
+    top: 45%;
+    color: #000000; 
+    transform: scale(.5);
+}
+
+#produtos a button {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+#produtos .numeros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+#produtos .numero {
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #ebebeb;
+    width: 100%;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    background: var(--gradient);
+}
+
+#produtos .numero h3 {
+    background: linear-gradient(45deg, #fff, #b5b5b5, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 3rem;
+}
+
+#produtos .numero p {
+    text-align: left;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+#produtos .numero:nth-child(1) p {
+    margin-left: .7rem;
+}
+
+#produtos .numero p span {
+    font-weight: 600;
+}
+
+#produtos h4 {
+    font-size: 1.6rem;
+
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+#produtos h4 span {
+    font-weight: 700;
+}
+
+@media (min-width: 1080px) {
+    section#produtos a button {
+        font-size: 2rem;
+    }
+
+    section#produtos .agatres {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#produtos h3 {
+        width: max-content;
+
+    }
+
+    section#produtos .numeros {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section#produtos h4 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+}
