@@ -1,5 +1,5 @@
 @import './global.css';
-@import './home.css';
+@import './home.css?v=5dasd';
 @import './sectionProdutos.css';
 @import './sectionInicio.css';
 @import './sectionPraquem.css';
@@ -8,4 +8,5 @@
 @import './navigationButton.css';
 @import './button.css';
 @import './head.css';
+@import './modalProdutos.css?v=5dasd';
 
