@@ -155,7 +155,7 @@
           <form id="formLead" autocomplete="on">
             <input type="text" name="nome" placeholder="Seu nome" required />
             <input type="email" name="email" placeholder="Seu e-mail" />
-            <input type="tel" name="telefone" placeholder="Seu WhatsApp" />
+            <input type="tel" name="telefone" placeholder="Seu WhatsApp" required/>
 
             <div class="button">
               <button class="appLocalLead whatsapp-submit" type="submit">
